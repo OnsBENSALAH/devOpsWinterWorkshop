@@ -12,7 +12,7 @@ pipeline {
         stage('Github checkout') {
             steps {
                 git branch: 'master',
-                url: 'https://github.com/OnsBENSALAH/devOpsWinterWorkhop.git'
+                url: 'https://github.com/OnsBENSALAH/devOpsWinterWorkshop.git'
                 
             }
         }
