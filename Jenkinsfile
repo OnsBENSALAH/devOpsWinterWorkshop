@@ -5,7 +5,7 @@ pipeline {
       
         DOCKER_CREDENTIALS_ID = credentials('docker-hub-credentials')
         SPRING_IMAGE_NAME = 'bensalahons/events-project'
-        SPRING_IMAGE_TAG = '1.0.0-RELEASE'
+        SPRING_IMAGE_TAG = '2.0.0'
     }
 
     stages {
