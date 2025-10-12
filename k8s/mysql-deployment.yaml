@@ -6,7 +6,7 @@ metadata:
 type: Opaque
 data:
   mysql-root-password: ""                       # empty password
-  mysql-database: ZXZlbnRzUHJvamVjdERldk9wcy==  # eventsProjectDevOps
+  mysql-database: ZXZlbnRzUHJvamVjdERldk9wcy==  # eventsProjectDevOps encodé en base64
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -59,4 +59,4 @@ spec:
     - protocole: TCP
       port: 3306
       targetPort: 3306
-  clusterIP: None
+  clusterIP: None  # pour que Spring résolve facilement mysql-service
