@@ -16,7 +16,7 @@ services:
       - events-network
 
   spring-boot-app:
-    image: bensalahons/events-project:3.0.O
+    image: bensalahons/events-project:3.0.0
     container_name: spring-boot-app
     restart: on-failure
     environment:
