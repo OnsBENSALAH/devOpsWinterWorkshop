@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: eventsproject-app
-          image: bensalahons/events-project:2.0.0
+          image: bensalahons/events-project:3.0.0
           ports:
             - containerPort: 8089
           env:
