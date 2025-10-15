@@ -3,10 +3,7 @@ package tn.esprit.eventsproject.entities;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import jakarta.persistence.*;
 import java.io.Serializable;
 
 @Getter
